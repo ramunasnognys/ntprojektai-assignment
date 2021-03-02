@@ -17,17 +17,13 @@ main:focus {
   outline: none;
 }
 
-body {
-  background: yellow;
-}
-article.hero {
+hero {
   background: var(--blue-gradient-1);
-  height: 100vh;
-  position: absolute;
+  /* position: absolute; */
 }
 
-  .hero__title {
-    color: red;
+.hero__title {
+  color: red;
 }
 
 .hero > .wrapper {
