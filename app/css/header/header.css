@@ -15,6 +15,13 @@
   background: var(--color-light);
   line-height: 2.7;
 }
+.site-head > .wrapper {
+  @media (max-width: 40em) {
+    background: pink;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 
 .site-head :focus {
   outline-color: red;
