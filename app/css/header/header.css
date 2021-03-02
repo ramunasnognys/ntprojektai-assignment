@@ -11,9 +11,9 @@
 }
 
 .site-head {
-  padding: 0.6rem 0;
+  padding: 2.1rem 0;
   background: var(--color-light);
-  line-height: 2.7;
+  /* line-height: 2.7; */
 }
 .site-head > .wrapper {
   @media (max-width: 40em) {
