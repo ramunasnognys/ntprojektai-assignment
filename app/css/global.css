@@ -37,6 +37,7 @@
  * SWITCHER COMPONENT
  */
 .switcher {
+  justify-content: flex-end;
   display: flex;
   flex-wrap: wrap;
   margin: calc(var(--metric-gutter) * -1) 0 0 calc(var(--metric-gutter) * -1);
@@ -57,9 +58,9 @@
   --gallery-card-media-grayscale: 1;
   --gallery-card-icon-x: -0.5rem;
   --gallery-card-icon-opacity: 0;
-  --gallery-card-content-background: var(--color-navy-opaque);
+  --gallery-card-content-background: black;
 
-  max-width: 15rem;
+  max-width: 25rem;
 }
 
 .gallery-card__inner {
@@ -75,7 +76,8 @@
   z-index: 2;
   background: var(--gallery-card-content-background);
   color: var(--color-light);
-  padding: 0.6rem 3rem 0.6rem 0.6rem;
+  /* padding: 0.6rem 3rem 0.6rem 0.6rem; */
+  padding: 0.6rem 0;
   line-height: 1.1;
 }
 
@@ -160,4 +162,9 @@
 }
 .cover-button:focus {
   outline: 0.25rem solid var(--color-navy);
+}
+
+.img {
+  background-image: linear-gradient(to bottom, transparent, black),
+    url("https://images.unsplash.com/photo-1614180186384-a8b292b726ac?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=85");
 }
